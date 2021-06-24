@@ -1,36 +1,41 @@
-body{
-    background: url(../images/background.jpg) no-repeat fixed center top;
+body {
+    background: url(../images/background.jpg);
+    opacity: 0.9;
 }
-header{
+
+header {
     width:20%;
-    background:#000000;
-    color: #0000ff;
+    background:#00000065;
+    color: #ffffff;
     position: absolute;
     left:0;
     top:5%;
     z-index: 5;
 }
-header h1{
+
+header h1 {
     text-align: center;
 }
+
 nav ul {
     list-style:none;
     margin:5px 0;
     padding:0;
     color: #0000ff !important;
 }
-nav a{
+
+nav a {
     display:block;
     border:1px solid #e5e5e5;
     border-left:0;
     border-right:0;
     margin:3px 0;
-    color:#333;
+    color:#ffffff;
     padding:5px 0;
     text-decoration: none;
 } 
 
-.box{
+.boxInicio {
     position:absolute;
     top:5%;
     right:10px;
@@ -41,22 +46,65 @@ nav a{
     
 }
 
-.box h1{
+.boxInicio h1 {
+    font-size:24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boxAtendimento {
+    position:absolute;
+    top:5%;
+    right:10px;
+    width:70%;
+    height:100%;
+    background:#000000;
+    color: #ffffff;
+}
+
+.boxAtendimento h1 {
     font-size:24px;
     text-align: center;
 }
 
-.box h2{
+.boxAtendimento p {
     font-size:20px;
     padding:10px;
     text-align: center;
 }
-.box p{
+
+.boxContato {
+    position:absolute;
+    top:5%;
+    right:10px;
+    width:70%;
+    height:70%;
+    background:#000000;
+    color: #0000ff;
+    text-align: center;
+}
+
+.boxContato h1 {
+    font-size:24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boxContato p {
     font-size:20px;
     padding:10px;
     text-align: center;
+    color: #ffffff;
 }
-.content{
+
+.boxContato a {
+    font-size:20px;
+    padding:10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content {
     min-width: 100%;
     height: 98%;
     position: absolute;
@@ -66,44 +114,32 @@ nav a{
     -o-transition: margin-left .8s ease-in-out;
     transition: margin-left .8s ease-in-out;
 }
-.content:target{
+
+.content:target {
     margin-left:0;
 }
-#home{
+
+#home {
     margin-left:0;
 }
+
 ul li {
     font-size: 22px;
     padding: 15px;
-    color: #0000ff; 
+    color: #ffffff; 
 }
 
 #home:target ~ header #link-home a,
 #company:target ~ header #link-company a,
-#service:target ~ header #link-service a,
-#contact:target ~ header #link-contact a{
+#contact:target ~ header #link-contact a {
     background: #333;
     color: #0000ff;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto ;
-}
+    opacity: initial;
 
-.boxContato{
-    position:absolute;
-    top:5%;
-    right:10px;
-    width:70%;
-    height:70%;
-    background:#000000;
-    color: #0000ff;
-    text-align: center;
-    /*margin-top: 250px !important;*/
 }
-/* a {
-    display: block;
-    margin-left: auto!important;
-    margin-right: auto!important;
-} */
