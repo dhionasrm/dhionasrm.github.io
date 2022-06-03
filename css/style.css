@@ -64,11 +64,13 @@ nav a {
 
 .boxAtendimento h1 {
     font-size:24px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 .boxAtendimento p {
     font-size:20px;
+    font-family: 'Roboto', sans-serif;
     padding:10px;
     text-align: center;
 }
