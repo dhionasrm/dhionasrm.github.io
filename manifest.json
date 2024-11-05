@@ -4,7 +4,7 @@
   "theme_color": "#2a0044",
   "background_color": "#2a0044",
   "display": "standalone",
-  "scope": "/https://dhionasrm.github.io/"
+  "scope": "/https://dhionasrm.github.io/",
   "start_url": "https://dhionasrm.github.io/",
   "icons": [
   {
